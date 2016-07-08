@@ -6,7 +6,7 @@
 
 body {
     margin-top: 0; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    background-color: transparent !important;
+    background-color: #41342B !important;
 }
 
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
@@ -20,16 +20,15 @@ body {
 }
 
 
-.full {
-    background: url('../images/bg.jpg') no-repeat fixed center;
+/*.full {
+    background: url('../images/bg.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-}
+}*/
 
-.center-image
-{
+.center-image {
     display: block;
     margin: 0 auto;
 }
@@ -37,34 +36,36 @@ body {
 
 
 
-.light-text a
-{
-    
+.light-text a {
     color: #FFFF00;
     font-weight: bold;
     text-decoration: none;
-    
 }
 
-.dark-text
-{
+.dark-text {
     text-align: center;
-
 }
 
-.dark-text a
-{
-    
-    color: #FFFFFF;
-    font-weight: bold;
-    text-decoration: none;
-}
+    .dark-text a {
+        color: #FFFFFF;
+        font-weight: bold;
+        text-decoration: none;
+    }
 
 .height {
     height: 40px;
 }
 
+.full {
+    background-image: url('../images/bg.jpg');
+    background-repeat: no-repeat;
+}
+
 @media (max-width: 480px) {
+    .full {
+        background-size: 640px auto;
+    }
+
     .sociallogo {
         width: 40px;
         height: 40px;
@@ -72,6 +73,11 @@ body {
 }
 
 @media (min-width: 480px) {
+    .full {
+        background-size: 767px auto;
+    }
+
+
     .sociallogo {
         width: 55px;
         height: 55px;
@@ -79,6 +85,11 @@ body {
 }
 
 @media (min-width: 768px) {
+    .full {
+        background-size: 991px auto;
+    }
+
+
     .sociallogo {
         width: 60px;
         height: 60px;
@@ -86,6 +97,10 @@ body {
 }
 
 @media (min-width: 992px) {
+    .full {
+        background-size: 1199px auto;
+    }
+
     .sociallogo {
         width: 60px;
         height: 60px;
@@ -93,6 +108,10 @@ body {
 }
 
 @media (min-width: 1200px) {
+    .full {
+        background-size: 100% auto;
+    }
+
     .sociallogo {
         width: 60px;
         height: 60px;

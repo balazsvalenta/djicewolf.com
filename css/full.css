@@ -6,7 +6,9 @@
 
 body {
     margin-top: 0; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    background-color: #41342B !important;
+    background-color: #41342b !important;
+    background-image: url('../images/bg.jpg');
+    background-repeat: no-repeat;
 }
 
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
@@ -56,13 +58,8 @@ body {
     height: 40px;
 }
 
-.full {
-    background-image: url('../images/bg.jpg');
-    background-repeat: no-repeat;
-}
-
 @media (max-width: 480px) {
-    .full {
+    body {
         background-size: 640px auto;
     }
 
@@ -73,7 +70,7 @@ body {
 }
 
 @media (min-width: 480px) {
-    .full {
+    body {
         background-size: 767px auto;
     }
 
@@ -85,7 +82,7 @@ body {
 }
 
 @media (min-width: 768px) {
-    .full {
+    body {
         background-size: 991px auto;
     }
 
@@ -97,7 +94,7 @@ body {
 }
 
 @media (min-width: 992px) {
-    .full {
+    body {
         background-size: 1199px auto;
     }
 
@@ -108,7 +105,7 @@ body {
 }
 
 @media (min-width: 1200px) {
-    .full {
+    body {
         background-size: 100% auto;
     }
 

@@ -11,6 +11,15 @@ body {
 
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
 
+.col-md-4 {
+    padding-bottom: 40px;
+}
+
+.col-md-6 {
+    padding-bottom: 20px;
+}
+
+
 .full {
     background: url('../images/bg.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -55,14 +64,37 @@ body {
     height: 40px;
 }
 
+@media (max-width: 480px) {
+    .sociallogo {
+        width: 40px;
+        height: 40px;
+    }
+}
+
 @media (min-width: 480px) {
+    .sociallogo {
+        width: 55px;
+        height: 55px;
+    }
 }
 
 @media (min-width: 768px) {
+    .sociallogo {
+        width: 70px;
+        height: 70px;
+    }
 }
 
 @media (min-width: 992px) {
+    .sociallogo {
+        width: 85px;
+        height: 85px;
+    }
 }
 
 @media (min-width: 1200px) {
+    .sociallogo {
+        width: 100px;
+        height: 100px;
+    }
 }

@@ -6,7 +6,7 @@
 
 body {
     margin-top: 0; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    background-color: #41342b !important;
+    background-color: #1f150e !important;
     background-image: url('../images/bg.jpg');
     background-repeat: no-repeat;
 }

@@ -70,7 +70,6 @@ body {
         width: 40px;
         height: 40px;
     }
-    ba
 }
 
 @media (min-width: 480px) {
@@ -82,21 +81,21 @@ body {
 
 @media (min-width: 768px) {
     .sociallogo {
-        width: 70px;
-        height: 70px;
+        width: 60px;
+        height: 60px;
     }
 }
 
 @media (min-width: 992px) {
     .sociallogo {
-        width: 85px;
-        height: 85px;
+        width: 60px;
+        height: 60px;
     }
 }
 
 @media (min-width: 1200px) {
     .sociallogo {
-        width: 100px;
-        height: 100px;
+        width: 60px;
+        height: 60px;
     }
 }

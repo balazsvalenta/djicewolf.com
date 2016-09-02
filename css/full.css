@@ -1,19 +1,128 @@
-/*!
- * Start Bootstrap - Full HTML Template (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-
 body {
-    margin-top: 0; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    background-color: #1f150e !important;
     background-image: url('../images/bg.jpg');
     background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    background-size: cover;
+    min-height: 100%;
 }
+
+img {
+    background-size: cover;
+    width: 100%;
+}
+
+.row {
+    float: left;
+    width: 100%;
+}
+
+.col {
+    background-size: cover;
+    float: left;
+}
+
+/* row 1 */
+.row1 {
+    margin-top: 20%;
+}
+
+.row1colempty {
+    width: 34.84375%;
+}
+
+.row1col {
+    width: 30.3125%;
+}
+
+/* row 2 */
+.row2 {
+    margin-top: 20%;
+}
+
+.row2colempty {
+    width: 11.0546875%;
+}
+
+.row2col {
+    width: 18.59375%;
+}
+
+/* row 3 */
+.row3 {
+    margin-top: 9%;
+}
+
+.row3colempty {
+    width: 26.796875%;
+}
+
+.row3col {
+    width: 9.8046875%;
+}
+
+/* social */
+.socialrow1 {
+    margin-top: 20%;
+}
+
+.socialrow2 {
+    margin-top: 10%;
+}
+
+.socialcolempty {
+    width: 29.53125%;
+}
+
+.socialcol {
+    width: 5.703125%;
+}
+
+.socialbottom {
+    width: 100%;
+    height: 10%;
+}
+
+/* iframe */
+.soundcloudbg {
+    height: 100%;
+}
+
+/*.row {
+    display: table;
+    width: 100%;
+}
+
+.left {
+    width: 20%;
+    display: table-cell;
+    height: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../images/Facebook.png');
+}
+
+.right {
+    width: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20%;
+    background-image: url('../images/Twitter.png');
+    display: table-cell;
+}*/
+/*#z1 {
+    top: 0%;
+}
+#z2 {
+    top: 35%;
+}
+#z3 {
+    top: 70%;
+}*/
 
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
 
-.col-md-4 {
+/*.col-md-4 {
     padding-bottom: 30px;
 }
 
@@ -29,7 +138,7 @@ body {
     background-size: cover;
     -o-background-size: cover;
 }*/
-
+/*
 .center-image {
     display: block;
     margin: 0 auto;
@@ -56,9 +165,9 @@ body {
 
 .height {
     height: 40px;
-}
+}*/
 
-@media (max-width: 480px) {
+/*@media (max-width: 480px) {
     body {
         background-size: 640px auto;
     }
@@ -113,4 +222,4 @@ body {
         width: 60px;
         height: 60px;
     }
-}
+}*/

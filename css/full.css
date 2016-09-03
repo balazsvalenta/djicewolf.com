@@ -1,9 +1,18 @@
-body {
+html {
+    margin: 0;
+    padding: 0;
     background-image: url('../images/bg.jpg');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: top;
     background-size: cover;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 img {
@@ -67,6 +76,7 @@ img {
 
 .socialrow2 {
     margin-top: 10%;
+    height: 100%;
 }
 
 .socialcolempty {

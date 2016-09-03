@@ -2,9 +2,8 @@ body {
     background-image: url('../images/bg.jpg');
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-position: 0% 0%;
+    background-position: top;
     background-size: cover;
-    min-height: 100%;
 }
 
 img {
